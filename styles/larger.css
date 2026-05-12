@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .top-sections {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .navigation {
+    gap: 1rem;
+     display: flex !important;
+    }
+}
