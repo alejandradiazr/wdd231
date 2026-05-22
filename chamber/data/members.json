@@ -1,0 +1,72 @@
+[
+{
+"name":"Phone Center",
+"type":"Cell Phones & Technology",
+"address":"Sogamoso, Colombia",
+"phone":"3112572267",
+"website":"https://phonecenter.com",
+"image":"phonecenter.webp",
+"membership":3
+},
+
+{
+"name":"Ropa y Rock",
+"type":"Clothing Store",
+"address":"Sogamoso, Colombia",
+"phone":"3214567890",
+"website":"https://ropayrock.com",
+"image":"roparock.webp",
+"membership":1
+},
+
+{
+"name":"Relojería Rojas",
+"type":"Watch Store",
+"address":"Sogamoso, Colombia",
+"phone":"3147778888",
+"website":"https://relojeriarojas.com",
+"image":"relojeria.webp",
+"membership":3
+},
+
+{
+"name":"Tradición Pibil",
+"type":"Restaurant",
+"address":"Sogamoso, Colombia",
+"phone":"3124447777",
+"website":"https://tradicionpibil.com",
+"image":"tradicionpibil.webp",
+"membership":2
+},
+
+{
+"name":"Librería de la 11",
+"type":"Book Store",
+"address":"Sogamoso, Colombia",
+"phone":"3155558888",
+"website":"https://libreria11.com",
+"image":"libreria.webp",
+"membership":2
+},
+
+{
+"name":"Café de la Montaña",
+"type":"Coffee Shop",
+"address":"Sogamoso, Colombia",
+"phone":"3109876543",
+"website":"https://cafedelamontana.com",
+"image":"cafemontana.webp",
+"membership":2
+},
+
+{
+"name":"Multi Imágenes Médicas S.A.S.",
+"type":"Medical Center",
+"address":"Sogamoso, Colombia",
+"phone":"3201112222",
+"website":"https://multiimagenes.com",
+"image":"multimageness.webp",
+"membership":3
+}
+
+]
