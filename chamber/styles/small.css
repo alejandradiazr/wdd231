@@ -4,8 +4,8 @@
 
 body{
 font-family:'Poppins',sans-serif;
-background:#F7F7F7;
-color:#333;
+background:white;
+color:black;
 margin:0;
 }
 
@@ -57,13 +57,13 @@ border-bottom:4px solid #b8895f;
 
 .navigation a.active{
 background:#b8895f;
-color:white;
+color:#194885;
 border-radius:8px;
 }
 
 .navigation a:hover{
 background:#b8895f;
-color:white;
+color:#194885;
 border-radius:8px;
 transition:.3s;
 }
@@ -75,7 +75,7 @@ main {
 }
 
 section {
-    background: #eee;
+    background: white;
     margin-bottom: 1rem;
     padding: 1rem;
 }
