@@ -4,14 +4,14 @@
 
 body{
 font-family:'Poppins',sans-serif;
-background:white;
-color:black;
+background: #fff;
+color: #000;
 margin:0;
 }
 
 header{
 background:#194885;
-color:white;
+color:#fff;
 padding:1rem;
 display:flex;
 justify-content:space-between;
@@ -37,7 +37,7 @@ border-bottom:4px solid #b8895f;
     font-size: 1.5rem;
     background: none;
     border: none;
-    color: white;
+    color: #fff;
 }
 
 .navigation {
@@ -50,20 +50,20 @@ border-bottom:4px solid #b8895f;
 }
 
 .navigation a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 1rem;
 }
 
 .navigation a.active{
 background:#b8895f;
-color:#194885;
+color:#000;
 border-radius:8px;
 }
 
 .navigation a:hover{
 background:#b8895f;
-color:#194885;
+color:#000;
 border-radius:8px;
 transition:.3s;
 }
@@ -75,7 +75,7 @@ main {
 }
 
 section {
-    background: white;
+    background: #fff;
     margin-bottom: 1rem;
     padding: 1rem;
 }
@@ -97,7 +97,7 @@ button {
 
 .view-buttons button{
 background:#194885;
-color:white;
+color:#fff;
 border:none;
 padding:.8rem 1rem;
 border-radius:8px;
@@ -121,7 +121,7 @@ gap:1rem;
 }
 
 .grid section{
-background:white;
+background:#fff;
 padding:1rem;
 border-radius:12px;
 border-left:5px solid #b8895f;
@@ -148,7 +148,7 @@ display:block;
 .list section{
 margin:1rem 0;
 padding:1rem;
-border-bottom:1px solid gray;
+border-bottom:1px solid #808080;
 }
 
 .list img{
@@ -157,7 +157,7 @@ display:none;
 
 footer{
 background:#194885;
-color:white;
+color:#fff;
 padding:1rem;
 margin-top:2rem;
 text-align: center;
