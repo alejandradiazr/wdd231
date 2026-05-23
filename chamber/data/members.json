@@ -1,7 +1,7 @@
 [
 {
 "name":"Phone Center",
-"type":"Cell Phones & Technology",
+"category":"Cell Phones & Technology",
 "address":"Sogamoso, Colombia",
 "phone":"3112572267",
 "website":"https://phonecenter.com",
@@ -11,7 +11,7 @@
 
 {
 "name":"Ropa y Rock",
-"type":"Clothing Store",
+"category":"Clothing Store",
 "address":"Sogamoso, Colombia",
 "phone":"3214567890",
 "website":"https://ropayrock.com",
@@ -21,7 +21,7 @@
 
 {
 "name":"Relojería Rojas",
-"type":"Watch Store",
+"category":"Watch Store",
 "address":"Sogamoso, Colombia",
 "phone":"3147778888",
 "website":"https://relojeriarojas.com",
@@ -31,7 +31,7 @@
 
 {
 "name":"Tradición Pibil",
-"type":"Restaurant",
+"caategory":"Restaurant",
 "address":"Sogamoso, Colombia",
 "phone":"3124447777",
 "website":"https://tradicionpibil.com",
@@ -41,7 +41,7 @@
 
 {
 "name":"Librería de la 11",
-"type":"Book Store",
+"category":"Book Store",
 "address":"Sogamoso, Colombia",
 "phone":"3155558888",
 "website":"https://libreria11.com",
@@ -51,7 +51,7 @@
 
 {
 "name":"Café de la Montaña",
-"type":"Coffee Shop",
+"category":"Coffee Shop",
 "address":"Sogamoso, Colombia",
 "phone":"3109876543",
 "website":"https://cafedelamontana.com",
@@ -61,7 +61,7 @@
 
 {
 "name":"Multi Imágenes Médicas S.A.S.",
-"type":"Medical Center",
+"category":"Medical Center",
 "address":"Sogamoso, Colombia",
 "phone":"3201112222",
 "website":"https://multiimagenes.com",
