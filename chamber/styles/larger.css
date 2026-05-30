@@ -15,7 +15,7 @@ display:none;
 }
 
 .home-grid{
-grid-template-columns:1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1.5fr;
 }
 
 .hero img{
@@ -23,7 +23,7 @@ height:600px;
 }
 
 #spotlights{
-grid-template-columns:1fr;
+grid-template-columns:1fr 1fr 1fr;
 }
 
 }

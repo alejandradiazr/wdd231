@@ -1,7 +1,7 @@
 const spotlightContainer =
 document.querySelector("#spotlights");
 
-async function loadSpotlights(){
+async function loadSpotlights() {
 
 const response =
 await fetch("data/members.json");
@@ -10,18 +10,13 @@ const data =
 await response.json();
 
 const filteredMembers =
-
-data.filter(member =>
-
-member.membership >= 2
-
-);
+data.filter(member => member.membership >= 2);
 
 const randomMembers =
 
 filteredMembers
 .sort(() => 0.5 - Math.random())
-.slice(0,3);
+.slice(0, 3);
 
 displaySpotlights(randomMembers);
 
@@ -29,16 +24,21 @@ displaySpotlights(randomMembers);
 
 loadSpotlights();
 
-
-function displaySpotlights(members){
+function displaySpotlights(members) {
 
 spotlightContainer.innerHTML = "";
 
 members.forEach(member => {
 
+const level =
+member.membership === 3
+? "Gold Member"
+: "Silver Member";
+
 spotlightContainer.innerHTML += `
 
 <section>
+
 <h3>${member.name}</h3>
 
 <img
@@ -50,14 +50,7 @@ loading="lazy">
 <strong>${member.category}</strong>
 </p>
 
-<p>${member.phone}</p>
-
-<p>${member.address}</p>
-
-<p>
-Membership Level:
-${member.membership}
-</p>
+<p>${level}</p>
 
 <a
 href="${member.website}"
@@ -66,6 +59,7 @@ rel="noopener">
 
 Visit Website
 </a>
+
 </section>
 
 `;
