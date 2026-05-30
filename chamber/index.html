@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+<title>Sogamoso Chamber Home</title>
+
+<meta
+name="description"
+content="Official homepage of the Sogamoso Chamber of Commerce featuring local businesses, events, weather, and community information.">
+
+<meta
+name="author"
+content="Alejandra Díaz">
+
+<link rel="icon" href="images/favicon.ico">
+
+<meta property="og:title"
+content="Sogamoso Chamber Home">
+
+<meta property="og:description"
+content="Discover local businesses, events, and opportunities in Sogamoso.">
+
+<meta property="og:image"
+content="https://alejandradiazr.github.io/wdd231/chamber/images/chamber-social.webp">
+
+<meta property="og:url"
+content="https://alejandradiazr.github.io/wdd231/chamber/index.html">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="styles/normalize.css">
+
+<link rel="stylesheet"
+href="styles/small.css">
+
+<link rel="stylesheet"
+href="styles/larger.css">
+
+<script src="scripts/navigation.js" defer></script>
+<script src="scripts/dates.js" defer></script>
+<script src="scripts/weather.js" defer></script>
+<script src="scripts/spotlight.js" defer></script>
+</head>
+
+<body>
+<header>
+<div class="logo">
+<img
+src="images/logosogamoso.webp"
+alt="Sogamoso Chamber Logo">
+<span>Sogamoso Chamber</span>
+</div>
+
+<button
+id="menu"
+aria-label="Open navigation menu">
+☰
+</button>
+
+<nav class="navigation">
+<a href="index.html"
+class="active">
+Home
+</a>
+
+<a href="directory.html">
+Directory
+</a>
+
+<a href="discover.html">
+Discover
+</a>
+
+<a href="join.html">
+Join
+</a>
+</nav>
+</header>
+
+<main>
+<section class="hero">
+<img
+src="images/sogamosohero.webp"
+alt="Sogamoso landscape">
+<div class="hero-text">
+<h1>Welcome to Sogamoso Chamber</h1>
+<p>
+Supporting local businesses and community growth
+</p>
+
+<a
+href="join.html"
+class="cta">
+Join the Chamber
+</a>
+</div>
+</section>
+
+<div class="home-grid">
+<section class="events">
+<h2>Current Events</h2>
+<p>
+The Sogamoso Business Fair will take place this weekend
+with local entrepreneurs, restaurants, and stores.
+</p>
+
+<p>
+Join our local networking event for small businesses
+next Friday at the Chamber auditorium.
+</p>
+</section>
+
+<section class="weather-card">
+<h2>Weather</h2>
+<div id="current-weather"></div>
+<h3>3-Day Forecast</h3>
+<div id="forecast"></div>
+</section>
+
+<section class="spotlights-section">
+<h2>Company Spotlights</h2>
+<div id="spotlights"></div>
+</section>
+</div>
+</main>
+
+<footer>
+<p>
+Sogamoso Chamber of Commerce
+<br>
+Sogamoso, Colombia
+<br>
+info@sogamosochamber.com
+<br>
++57 300 1234567
+</p>
+
+<p>
+Alejandra Díaz
+<br>
+WDD 231
+<br>
+©
+<span id="currentyear"></span>
+</p>
+
+<p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
