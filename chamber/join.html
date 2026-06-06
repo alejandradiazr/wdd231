@@ -239,7 +239,7 @@ View Benefits
 <div class="membership-card">
 <h2>Bronze Membership</h2>
 
-<a onclick="document.getElementById('bronzeModal').showModal()">
+<a href="#" class="open-modal" data-modal="bronzeModal">
 View Benefits
 </a>
 </div>
@@ -247,7 +247,7 @@ View Benefits
 <div class="membership-card">
 <h2>Silver Membership</h2>
 
-<a onclick="document.getElementById('silverModal').showModal()">
+<a href="#" class="open-modal" data-modal="silverModal">
 View Benefits
 </a>
 </div>
@@ -255,7 +255,7 @@ View Benefits
 <div class="membership-card">
 <h2>Gold Membership</h2>
 
-<a onclick="document.getElementById('goldModal').showModal()">
+<a href="#" class="open-modal" data-modal="goldModal">
 View Benefits
 </a>
 </div>
@@ -275,7 +275,7 @@ Close
 <dialog id="bronzeModal">
 <h3>Bronze Membership</h3>
 <p>Directory listing and networking events.</p>
-<button onclick="bronzeModal.close()">
+<button class="close-modal">
 Close
 </button>
 </dialog>
@@ -283,7 +283,7 @@ Close
 <dialog id="silverModal">
 <h3>Silver Membership</h3>
 <p>Bronze benefits plus training opportunities and event discounts.</p>
-<button onclick="silverModal.close()">
+<button class="close-modal">
 Close
 </button>
 </dialog>
@@ -291,7 +291,7 @@ Close
 <dialog id="goldModal">
 <h3>Gold Membership</h3>
 <p>All benefits plus spotlight advertising and premium promotion.</p>
-<button onclick="goldModal.close()">
+<button class="close-modal">
 Close
 </button>
 </dialog>

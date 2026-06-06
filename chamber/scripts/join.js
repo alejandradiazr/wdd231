@@ -4,17 +4,17 @@ document.querySelector("#timestamp");
 timestampField.value =
 new Date().toISOString();
 
-const openButtons =
+const modalLinks =
 document.querySelectorAll(".open-modal");
 
-openButtons.forEach(button => {
+modalLinks.forEach(link => {
 
-button.addEventListener("click", event => {
+link.addEventListener("click", (event) => {
 
 event.preventDefault();
 
 const modalId =
-button.dataset.modal;
+link.dataset.modal;
 
 document
 .getElementById(modalId)
@@ -31,7 +31,9 @@ closeButtons.forEach(button => {
 
 button.addEventListener("click", () => {
 
-button.closest("dialog").close();
+button
+.closest("dialog")
+.close();
 
 });
 
