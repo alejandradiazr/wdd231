@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Join Sogamoso Chamber</title>
+
+<meta
+name="description"
+content="Apply to become a member of the Sogamoso Chamber of Commerce and enjoy networking, promotion, and business growth opportunities.">
+
+<meta
+name="author"
+content="Alejandra Díaz">
+
+<link rel="icon" href="images/favicon.ico">
+
+<meta property="og:title"
+content="Join Sogamoso Chamber">
+
+<meta property="og:description"
+content="Become a member of the Sogamoso Chamber of Commerce.">
+
+<meta property="og:image"
+content="https://alejandradiazr.github.io/wdd231/chamber/images/chamber-social.webp">
+
+<meta property="og:url"
+content="https://alejandradiazr.github.io/wdd231/chamber/join.html">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="styles/normalize.css">
+
+<link rel="stylesheet"
+href="styles/small.css">
+
+<link rel="stylesheet"
+href="styles/larger.css">
+
+<script src="scripts/navigation.js" defer></script>
+<script src="scripts/dates.js" defer></script>
+<script src="scripts/join.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<img
+src="images/logosogamoso.webp"
+alt="Sogamoso Chamber Logo">
+
+<span>Sogamoso Chamber</span>
+</div>
+
+<button
+id="menu"
+aria-label="Open navigation menu">
+☰
+</button>
+
+<nav class="navigation">
+
+<a href="index.html">
+Home
+</a>
+
+<a href="directory.html">
+Directory
+</a>
+
+<a href="discover.html">
+Discover
+</a>
+
+<a
+href="join.html"
+class="active">
+Join
+</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<h1>Join the Chamber</h1>
+
+<div class="join-container">
+
+<form
+method="get"
+action="thankyou.html"
+class="join-form">
+
+<label>
+First Name
+
+<input
+type="text"
+name="firstname"
+title="Enter your first name"
+autocomplete="given-name"
+required>
+</label>
+
+<label>
+Last Name
+
+<input
+type="text"
+name="lastname"
+title="Enter your last name"
+autocomplete="family-name"
+required>
+</label>
+
+<label>
+Organization Title
+
+<input
+type="text"
+name="organizationtitle"
+title="Enter your organizational title"
+autocomplete="organization-title"
+pattern="[A-Za-z\s\-]{7,}"
+>
+</label>
+
+<label>
+Email
+
+<input
+type="email"
+name="email"
+title="Enter your email address"
+autocomplete="email"
+placeholder="example@email.com"
+required>
+</label>
+
+<label>
+Mobile Phone
+
+<input
+type="tel"
+name="phone"
+title="Enter your mobile phone number"
+autocomplete="tel"
+required>
+</label>
+
+<label>
+Business / Organization Name
+
+<input
+type="text"
+name="organization"
+title="Enter organization name"
+autocomplete="organization"
+required>
+</label>
+
+<label>
+Membership Level
+
+<select
+name="membership"
+title="Select membership level">
+
+<option value="np">
+NP Membership
+</option>
+
+<option value="bronze">
+Bronze Membership
+</option>
+
+<option value="silver">
+Silver Membership
+</option>
+
+<option value="gold">
+Gold Membership
+</option>
+
+</select>
+
+</label>
+
+<label>
+Business Description
+
+<textarea
+name="description"
+title="Describe your business">
+</textarea>
+
+</label>
+
+<input
+type="hidden"
+id="timestamp"
+name="timestamp">
+
+<input
+type="submit"
+value="Submit Application">
+
+</form>
+
+<div class="membership-cards">
+
+<div class="membership-card">
+<h2>NP Membership</h2>
+
+<a href="#" class="open-modal" data-modal="npModal">
+View Benefits
+</a>
+</div>
+
+<div class="membership-card">
+<h2>Bronze Membership</h2>
+
+<a onclick="document.getElementById('bronzeModal').showModal()">
+View Benefits
+</a>
+</div>
+
+<div class="membership-card">
+<h2>Silver Membership</h2>
+
+<a onclick="document.getElementById('silverModal').showModal()">
+View Benefits
+</a>
+</div>
+
+<div class="membership-card">
+<h2>Gold Membership</h2>
+
+<a onclick="document.getElementById('goldModal').showModal()">
+View Benefits
+</a>
+</div>
+
+</div>
+
+</div>
+
+<dialog id="npModal">
+<h3>NP Membership</h3>
+<p>No fee for nonprofit organizations.</p>
+<button class="close-modal">
+Close
+</button>
+</dialog>
+
+<dialog id="bronzeModal">
+<h3>Bronze Membership</h3>
+<p>Directory listing and networking events.</p>
+<button onclick="bronzeModal.close()">
+Close
+</button>
+</dialog>
+
+<dialog id="silverModal">
+<h3>Silver Membership</h3>
+<p>Bronze benefits plus training opportunities and event discounts.</p>
+<button onclick="silverModal.close()">
+Close
+</button>
+</dialog>
+
+<dialog id="goldModal">
+<h3>Gold Membership</h3>
+<p>All benefits plus spotlight advertising and premium promotion.</p>
+<button onclick="goldModal.close()">
+Close
+</button>
+</dialog>
+
+</main>
+
+<footer>
+
+<p>
+Sogamoso Chamber of Commerce
+<br>
+Sogamoso, Colombia
+<br>
+info@sogamosochamber.com
+<br>
++57 300 1234567
+</p>
+
+<p>
+Alejandra Díaz
+<br>
+WDD 231
+<br>
+©
+<span id="currentyear"></span>
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>

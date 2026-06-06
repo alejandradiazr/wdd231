@@ -26,4 +26,9 @@ height:600px;
 grid-template-columns:1fr 1fr 1fr;
 }
 
+.join-container {
+grid-template-columns: 2fr 1fr;
+align-items: start;
+}
+
 }
