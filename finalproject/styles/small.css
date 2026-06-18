@@ -25,6 +25,14 @@ align-items: center;
 gap: 10px;
 }
 
+.logo p {
+margin: 0;
+font-family: "Poppins", sans-serif;
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+}
+
 .logo img {
 width: 150px;
 height: auto;
