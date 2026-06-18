@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+
+.navigation {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 1rem;
+position: static;
+width: auto;
+background: none;
+}
+
+#menu {
+display: none;
+}
+
+.service-grid {
+grid-template-columns:
+repeat(3, 1fr);
+}
+
+.contact-form {
+max-width: 700px;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+#products-container {
+grid-template-columns:
+repeat(4, 1fr);
+}
+
+.hero {
+padding: 6rem 2rem;
+}
+
+.hero h2 {
+font-size: 3rem;
+}
+
+}

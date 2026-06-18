@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Contact | Phone Center</title>
+
+<meta name="description"
+content="Contact Phone Center for information about iPhones, accessories, and repair services.">
+
+<meta name="author"
+content="Alejandra Díaz">
+
+<link rel="icon"
+href="images/favicon.ico">
+
+<meta property="og:title"
+content="Contact | Phone Center">
+
+<meta property="og:description"
+content="Get in touch with Phone Center for products and services.">
+
+<meta property="og:image"
+content="https://alejandradiazr.github.io/wdd231/finalproject/images/logo.webp">
+
+<meta property="og:url"
+content="https://alejandradiazr.github.io/wdd231/finalproject/contact.html">
+
+<meta property="og:type"
+content="website">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="styles/small.css">
+
+<link rel="stylesheet"
+href="styles/larger.css">
+
+<script
+src="scripts/navigation.js"
+defer>
+</script>
+
+<script
+src="scripts/dates.js"
+defer>
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<img
+src="images/logo.webp"
+alt="Phone Center Logo">
+
+<h1>Phone Center</h1>
+
+</div>
+
+<button
+id="menu"
+aria-label="Open navigation menu">
+
+☰
+
+</button>
+
+<nav class="navigation">
+
+<a href="index.html">
+Home
+</a>
+
+<a href="products.html">
+Products
+</a>
+
+<a href="contact.html"
+class="active"
+aria-current="page">
+
+Contact
+
+</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<h1>Contact Us</h1>
+
+<form
+method="get"
+action="thanks.html"
+class="contact-form">
+
+<label>
+
+Full Name
+
+<input
+type="text"
+name="fullname"
+required>
+
+</label>
+
+<label>
+
+Email Address
+
+<input
+type="email"
+name="email"
+required>
+
+</label>
+
+<label>
+
+Phone Number
+
+<input
+type="tel"
+name="phone">
+
+</label>
+
+<label>
+
+Message
+
+<textarea
+name="message"
+required>
+</textarea>
+
+</label>
+
+<input
+type="submit"
+value="Send Message">
+
+</form>
+
+</main>
+
+<footer>
+
+<p>
+Phone Center
+</p>
+
+<p>
+Sogamoso, Boyacá, Colombia
+</p>
+
+<p>
+© <span id="currentyear"></span>
+Alejandra Díaz
+</p>
+
+<p id="lastModified"></p>
+
+<p>
+<a href="attributions.html">
+Attributions
+</a>
+</p>
+
+<p>
+<a href="#">
+Project Video
+</a>
+</p>
+
+</footer>
+
+</body>
+
+</html>

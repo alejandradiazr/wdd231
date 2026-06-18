@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro Max",
+    "price": "$899",
+    "storage": "256GB",
+    "condition": "New",
+    "image": "images/iphone15.webp"
+  },
+
+  {
+    "id": 2,
+    "name": "iPhone 14",
+    "price": "$749",
+    "storage": "128GB",
+    "condition": "New",
+    "image": "images/iphone14.webp"
+  },
+
+  {
+    "id": 3,
+    "name": "iPhone 13 Pro Max",
+    "price": "$599",
+    "storage": "256GB",
+    "condition": "Used",
+    "image": "images/iphone13.webp"
+  },
+
+  {
+    "id": 4,
+    "name": "iPhone 16",
+    "price": "$449",
+    "storage": "128GB",
+    "condition": "Used",
+    "image": "images/iphone12.webp"
+  },
+
+  {
+    "id": 5,
+    "name": "iPhone 17",
+    "price": "$349",
+    "storage": "256B",
+    "condition": "Used",
+    "image": "images/iphone11.webp"
+  },
+
+  {
+    "id": 6,
+    "name": "iPhone 17e",
+    "price": "$949",
+    "storage": "256GB",
+    "condition": "Used",
+    "image": "images/iphone14pro.webp"
+  },
+
+ {
+    "id": 7,
+    "name": "iPhone 17 Pro Max",
+    "price": "$1099",
+    "storage": "512GB",
+    "condition": "New",
+    "image": "images/iphone15pro.webp"
+  },
+
+  {
+    "id": 8,
+    "name": "AirPods Pro",
+    "price": "$249",
+    "storage": "N/A",
+    "condition": "New",
+    "image": "images/airpods.webp"
+  },
+
+  {
+    "id": 9,
+    "name": "Apple Watch Series 10",
+    "price": "$399",
+    "storage": "128GB",
+    "condition": "New",
+    "image": "images/watch9.webp"
+  },
+
+  {
+    "id": 10,
+    "name": "Apple Watch Series 11",
+    "price": "$279",
+    "storage": "128GB",
+    "condition": "New",
+    "image": "images/watch.webp"
+  },
+
+  {
+    "id": 11,
+    "name": "MagSafe Charger",
+    "price": "$49",
+    "storage": "N/A",
+    "condition": "New",
+    "image": "images/magsafe.webp"
+  },
+
+  {
+    "id": 12,
+    "name": "iPhone Case",
+    "price": "$25",
+    "storage": "N/A",
+    "condition": "New",
+    "image": "images/case.webp"
+  },
+
+  {
+    "id": 13,
+    "name": "Screen Protector",
+    "price": "$15",
+    "storage": "N/A",
+    "condition": "New",
+    "image": "images/protector.webp"
+  },
+
+  {
+    "id": 14,
+    "name": "Power Bank",
+    "price": "$39",
+    "storage": "10000mAh",
+    "condition": "New",
+    "image": "images/powerbank.webp"
+  },
+
+  {
+    "id": 15,
+    "name": "Lightning Cable",
+    "price": "$19",
+    "storage": "N/A",
+    "condition": "New",
+    "image": "images/cable.webp"
+  }
+
+]
